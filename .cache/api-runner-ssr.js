@@ -1,4 +1,7 @@
-var plugins = []
+var plugins = [{
+      plugin: require('/home/jungo/Desktop/Web Dev/thoughtsofacaveman/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
+      options: {"plugins":[],"extensions":[".mdx",".md"],"defaultLayouts":{},"gatsbyRemarkPlugins":[],"lessBabel":false,"remarkPlugins":[],"rehypePlugins":[],"mediaTypes":["text/markdown","text/x-markdown"],"root":"/home/jungo/Desktop/Web Dev/thoughtsofacaveman"},
+    }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
 //   {

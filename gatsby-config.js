@@ -1,5 +1,5 @@
 module.exports = {
-    siteMetaData: {
+    siteMetadata: {
         title: 'Thoughts of a Caveman',
         author: {
             name: 'Jungo',
@@ -18,9 +18,9 @@ module.exports = {
             options: {
                 extensions: ['.mdx', '.md'],
             }
-        },ß
+        },
         {
-            resolve: 'batsby-source-filesystem',
+            resolve: 'gatsby-source-filesystem',
             options: {
                 path: `${__dirname}/blog`,
                 name: 'blog'
